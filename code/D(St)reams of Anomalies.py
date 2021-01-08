@@ -8,7 +8,7 @@ from sklearn import preprocessing
 from scipy.stats import iqr
 from sklearn.ensemble import IsolationForest
 from sklearn.svm import OneClassSVM
-import pandas as import pd
+
 
 
 dataset = pd.read_csv('https://raw.githubusercontent.com/numenta/NAB/master/data/realKnownCause/ambient_temperature_system_failure.csv' , low_memory = False)
